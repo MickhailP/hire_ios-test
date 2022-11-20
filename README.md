@@ -1,17 +1,42 @@
-Тестовое задание на позицию iOS-разработчика
-==================
+# Weather Around 
+🌥 Weahter forecast application
 
-Тестовое задание необходимо для того, чтобы мы получили представление о том, какой код ты пишешь, и что мы сможем ожидать на PR. Вместо него можно прислать любой проект с 2+ экранами, за который не стыдно :)
+### App Icon
+<img width="60" alt="Снимок экрана 2022-11-04 в 11 38 23" src="https://user-images.githubusercontent.com/81718237/202279067-0a7864e7-b075-4099-8999-6c36b254edef.png">
 
-Прежде всего, тестовое задание является хорошим примером кода, решения из которого мы сможем обсудить во время технической части собеседования.
 
-### Что надо сделать:
-* Необходимо сделать приложение из двух модулей: лента(список) и детали
-* В качестве API использовать любой открытый(например github)
-* Важно реализовать offline-режим: т.е. в случае, если нет доступа к сети, показывать последние загруженные данные(и ленту, и детали)
+## Short description
+ 
+ 🌍 This is the app that allows you check a weather forecast around you and your favorite places around the world. It works on [Tommorow.io](https://www.tomorrow.io) API. User can observe a weather for it's current location and search it for any place. 
+ 
+ ## Features 
+✅ Easily get the information about the tempreature and weather conditions at your location.<br> 
+🕚 24-hours forecasst.<br> 
+👆 Get the weather forecast for 10 days.<br> 
+⭐️ Add your favorite places to the bookmaks and discover more about weather on around the world.<br> 
+ 
+ ## Technologies
+ - REST weather API
+ - Swift Concurrency, async/await
+ - CoreLocation
+ - Combine
+ - MVVM
+ - JSON parsing
+ - MapKit location search
+ - SwitfUI
+ - SwifLint
+ - UserDefaults 
 
-### Ограничения на стек технологий:
-* Swift
-* Оба экрана должны быть нативные - не WebView
-* Приветствуется наличие сервисов
-* Остальное на твое усмотрение
+## Screenshots
+
+Current location                                                         |  Favourite locations                                                       
+:----------------------------------------------------------------:|:--------------------------------------------------------------------:
+[<img src="https://user-images.githubusercontent.com/81718237/202274918-ee5f2f8d-94e5-4999-af7f-7429be2d5597.gif" width = "300" />](image.png) | [<img src="https://user-images.githubusercontent.com/81718237/202274072-1639b74e-fdda-457d-9dac-806a33e6b05e.gif" width="300"/>](image.png)
+
+
+
+
+
+
+
+
